@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Car;
 use App\Models\Headquarter;
 use App\Models\Product;
+use Illuminate\Support\Facades\Log;
 
 class CarsController extends Controller
 {
@@ -39,7 +40,7 @@ class CarsController extends Controller
      */
     public function create()
     {
-        
+
         return view('cars.create');
     }
 
@@ -61,7 +62,7 @@ class CarsController extends Controller
         $newImageName = time().'-'.$request->name . '.'.$request->image->extension();
 
         $request->image->move(public_path('images'), $newImageName);
-            
+
         $car = Car::create([
             'name' => $request->input('name'),
             'founded' => $request->input('founded'),
@@ -80,9 +81,9 @@ class CarsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {   
+    {
         $car = Car::find($id);
-    
+
         return view('cars.show')->with('car', $car);
     }
 
@@ -95,7 +96,7 @@ class CarsController extends Controller
     public function edit($id)
     {
         $car = Car::find($id)->first();
-        
+
         return view('cars.edit')->with('car', $car);
     }
 

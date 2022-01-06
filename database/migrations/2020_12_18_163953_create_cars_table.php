@@ -18,6 +18,7 @@ class CreateCarsTable extends Migration
             $table->string('name');
             $table->integer('founded');
             $table->longText('description');
+            $table->string('image_path');
             $table->timestamps();
         });
 

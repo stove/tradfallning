@@ -10,7 +10,7 @@
 
         @if (Auth::user())
             <div class="pt-10">
-                <a 
+                <a
                     href="cars/create"
                     class="border-b-2 pb-2 border-dotted italic text-gray-500">
                     Add a new car &rarr;
@@ -27,7 +27,7 @@
                 <div class="m-auto">
                     @if (isset(Auth::user()->id) && Auth::user()->id == $car->user_id)
                         <div class="float-right">
-                            <a 
+                            <a
                                 class="border-b-2 pb-2 border-dotted italic text-green-500"
                                 href="cars/{{ $car->id }}/edit">
                                 Edit &rarr;
@@ -36,7 +36,7 @@
                             <form action="/cars/{{ $car->id }}" class="pt-3" method="POST">
                                 @csrf
                                 @method('delete')
-                                <button 
+                                <button
                                     type="submit"
                                     class="border-b-2 pb-2 border-dotted italic text-red-500">
                                         Delete &rarr;
@@ -45,11 +45,11 @@
                         </div>
                     @endif
 
-                    <img 
-                        src="{{ asset('images/'. $car->image_path) }}"
-                        class="w-40 mb-8 shadow-xl" 
+                    <img
+                        src="{{ asset('/images/'. $car->image_path) }}"
+                        class="w-40 mb-8 shadow-xl"
                     />
-                    <span 
+                    <span
                     class="uppercase text-blue-500 font-bold text-xs italic">
                         Founded: {{ $car->founded }}
                     </span>

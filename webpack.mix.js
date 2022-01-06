@@ -19,7 +19,7 @@ mix
     require('postcss-nested'),
     require('autoprefixer'),
   ]);
-
+mix.browserSync('http://localhost:8000/');
 if (mix.inProduction()) {
   mix
     .version();

@@ -3,3 +3,29 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+
+@layer base {
+    @font-face {
+        font-family: Spartan;
+        src: url("../fonts/static/Spartan-Regular.ttf") format("truetype");
+
+    }
+    @font-face {
+        font-family: Spartan;
+        src: url("../fonts/static/Spartan-Bold.ttf") format("truetype");
+        font-weight: bold;
+    }
+
+
+    .hero img {
+        height: 65vh;
+    }
+
+    .heading-container {
+        height: 65vh;
+        top: -50px;
+    }
+}
+

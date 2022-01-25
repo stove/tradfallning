@@ -1,6 +1,6 @@
 
 
-    <nav class="bg-green-700 shadow rounded-2xl">
+    <nav class="bg-green-450 shadow rounded-2xl">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-around">
                 <div class="flex space-x-7 mr-4">

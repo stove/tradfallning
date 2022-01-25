@@ -9,7 +9,7 @@
                 dina grönytor och öppna upp din mark. Vi kan även direkt flisa upp ditt ris så att du blir
                 av med det.</p>
             <p class="text-lg font-light font-bold"> Röjning av träd,högt gräs eller vass</p>
-            <p class = "text-lg font-light">
+            <p>
                 Unga träd, sly,gräs och vass växer upp snabbare än man tror, så det är en god regel att hålla efter med jämna mellanrum.
                 Du kan själv numera enkelt köpa en röjsåg som klarar en hel del, men det är ett ganska tungt jobb
                 speciellt om man inte kan knepen för att underlätta arbetet.
@@ -17,13 +17,13 @@
                 tillfällen då du måste gå igenom det fält där arbetet redan är utfört.
                 Det är bra eftersom det är mycket jobbigare att hela tiden ta sig igenom mark som redan är röjd.
             </p>
-            <p class = "text-lg font-light">Om du har många ungträd som behöver röjas med röjsåg så är en god regel att lämna runt två
+            <p>Om du har många ungträd som behöver röjas med röjsåg så är en god regel att lämna runt två
                 meter mellan stammarna. Det ger bättre förutsättning för att dimensionsutvecklingen på
                 stammarna inte hämmas. Om det man ska röja mest består av lövträd är det absolut bäst att röja den tiden på året
                 som löven slår ut. Man ser enklast vad som är lämpligt att lämna kvar då och risken för stubbskott i
                 lövstubbarna blir lägre.
             </p>
-            <p class = "text-lg font-light">För att få en så effektiv röjning som möjligt är det viktigt att även slipa röjklingan med
+            <p>För att få en så effektiv röjning som möjligt är det viktigt att även slipa röjklingan med
                 jämna mellanrum. Ett bra tumregel kan vara att slipa klingan vid varje tankning.
                 Då går det relativt fort och du får en effektiv röjsåg genom hela ditt arbete.
 

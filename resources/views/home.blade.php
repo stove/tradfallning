@@ -3,88 +3,21 @@
 @section('content')
     <div class="container mx-auto sm:px-4 my-5">
 
-        <div class="flex flex-wrap  py-1 px-2 pb-0 lg:pe-0 lg:pt-4  rounded-3 border shadow-lg">
-            <div class="mx-1/6 pr-4 pl-4 px-2/12-6 text-center ">
-                <h1 class="text-2xl font-bold leading-tight text-gray-900 ">Välkommen till Trädfällning Gräskö AB</h1>
-                <h2 class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700">
-                    Företaget utför trädfällning och
-                    trädgårdsskötsel
-                    i norra Skärgården.
-                </h2>
+        <div class="flex flex-wrap  py-1 px-2 pb-0 lg:pe-0 lg:pt-4  rounded shadow-lg">
+            <div class="mx-1/12 pl-4 px-2/12-6 text-center ">
+                <h1 class="font-bold leading-3 text-gray-900 my-3 mt-9 mb-10">Trädfällning i norra Skärgården</h1>
+                @include('layouts.onecard')
                 <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700">
                     Vi innehar motorsågskörkort samt är registrerade för F-skatt och har
                     ansvarsförsäkring.
                 </p>
                 <p class="text-lg pt-2 text-base leading-7 space-y-2 text-gray-700 font-semibold">De tjänster vi kan
                     erbjuda omfattar: </p>
-                <div class="flex flex-wrap justify-around">
+                <div class="flex">
                     <div class="">
-                        <ul class="space-y-2">
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">
-                                    Trädfällning</p>
-                            </li>
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">Beskärning av
-                                    träd</p>
-                            </li>
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">Röjning av
-                                    buskar och sly</p>
-                            </li>
-                        </ul>
+
                     </div>
                     <div class="">
-                        <ul class="space-y-2">
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">
-                                    Stubbfräsning</p>
-                            </li>
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">Borttagning av
-                                    vass</p>
-                            </li>
-                            <li class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none"
-                                     viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="m9 12 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                                </svg>
-                                <p class="text-lg py-2 text-base leading-7 space-y-2 text-gray-700 ml-4">Flisning av
-                                    träd och buskar</p>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <p class="text-lg py-4 text-base leading-7 space-y-2 text-gray-700"> Vi arbetar främst i Roslagen på öar

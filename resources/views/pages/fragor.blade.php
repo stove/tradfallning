@@ -50,7 +50,7 @@
                                         I de flesta fallen är det bäst att anlita professionell hjälp. Om du ändå skall göra
                                         det, läs denna information först.
                                     </p>
-                                    <p class = "text-lg font-light">
+                                    <p>
                                         1. Se till att ha rätt utrustning
                                     </p>
                                     <p>Du måste ha rätt utrustning för att genomföra en säker och lyckad fällning. Det du
@@ -68,7 +68,7 @@
                                     </ul>
                                     </p>
 
-                                    <p class = "text-lg font-light">
+                                    <p>
                                         2. Förberedelser inför arbetet
                                     </p>
 
@@ -98,7 +98,7 @@
                                             att du har fri väg.
                                         </li>
                                     </ul>
-                                    <p class = "text-lg font-light">
+                                    <p>
                                         3. Trädfällningen
                                     </p>
                                     <ul class="text-lg font-light">

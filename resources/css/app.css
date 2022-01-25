@@ -17,15 +17,27 @@
         src: url("../fonts/static/Spartan-Bold.ttf") format("truetype");
         font-weight: bold;
     }
+    h1 {
+        @apply text-5xl;
 
-
-    .hero img {
+    }
+    h2 {
+        @apply text-3xl;
+    }
+    h3 {
+        @apply text-xl;
+        @apply font-bold;
+    }
+    p {
+        @apply text-xl font-light;
+    }
+   /* .hero img {
         height: 65vh;
     }
 
     .heading-container {
         height: 65vh;
         top: -50px;
-    }
+    }*/
 }
 

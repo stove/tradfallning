@@ -4,5 +4,5 @@
     <h1 class="ml-24 text-center text-white text-4xl tracking-tight leading-none">Trädfällning i Roslagen och Norra Skärgården</h1>
     <p class="mt-4 mx-24 text-xl text-white font-sans text-opacity-75">
     </p>
-    <p class="mx-24 my-8 text-center"><a class="px-4 py-2 border-1 border-white rounded-xl text-white text-lg bg-green-700 hover:bg-green-300 hover:text-purple-700" href="#">Kontakta oss idag!</a></p>
+    <p class="mx-24 my-8 text-center"><a class="px-4 py-2 border-1 border-white rounded-xl text-white text-lg bg-green-450 hover:bg-green-300 hover:text-purple-700" href="#">Kontakta oss idag!</a></p>
 </div>

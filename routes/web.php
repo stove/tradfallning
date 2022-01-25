@@ -17,8 +17,6 @@ use App\Http\Controllers\CarsController;
 |
 */
     /*  Here is the blog and admin section  */
-    Route::get('/pages/tradfallning.php',[\App\Http\Controllers\PageController::class,'tradfallning'])->name('tradfallning');
-    Route::get('/blog', [PostController::class, 'index'])->name('home');
 
     Route::get('posts/{post:slug}', [PostController::class, 'show']);
     Route::post('posts/{post:slug}/comments', [PostCommentsController::class, 'store']);
@@ -40,8 +38,8 @@ use App\Http\Controllers\CarsController;
     //end of admin section
 
 
-    Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-    Route::resource('/cars', CarsController::class);
+//    Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//    Route::resource('/cars', CarsController::class);
 
 //Auth::routes();
 
@@ -51,4 +49,7 @@ Route::get('/rojning', [\App\Http\Controllers\PageController::class, 'rojning'])
 Route::get('/kontakt', [\App\Http\Controllers\PageController::class, 'kontakt'])->name('kontakt');
 Route::get('/fragor', [\App\Http\Controllers\PageController::class, 'fragor'])->name('fragor');
 Route::get('/omoss', [\App\Http\Controllers\PageController::class, 'omoss'])->name('omoss');
+Route::get('/blog',function (){ return view('pages.blog');});
 
+//    Route::get('/pages/tradfallning.php',[\App\Http\Controllers\PageController::class,'tradfallning'])->name('tradfallning');
+//    Route::get('/blog', [PostController::class, 'index'])->name('blog');

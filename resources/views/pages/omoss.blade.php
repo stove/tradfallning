@@ -1,13 +1,13 @@
 @extends("layouts.app")
 @section("content")
 <div class = "container my-5">
-    <div class = "flex flex-wrap align-items-center rounded-3 border shadow-lg">
+    <div class = "flex flex-wrap align-items-center rounded-lg border shadow-lg">
         <div class = "w-7/12 p-4">
-            <h1 class = "text-3xl font-bold">Om oss</h1>
+            <h1 class = "font-bold">Om oss</h1>
 
             <h4 class = "text-xl font-bold">Trädfällning Gräskö AB - ett trädfällningsföretag i norra
                 skärgården</h4>
-            <p class = "text-lg font-light">
+            <p>
                 Företaget startades för att ge kunder i norra skärgården, roslagen och Norrtälje trakten hjälp med att
                 fälla träd på ett säkert och korrekt sätt.
                 Att själv fälla träd kan vara farligt och orsaka skador varför vår ambition är att med rätt verktyg och
@@ -15,7 +15,8 @@
                 man normalt själv inte har hemma ge en proffesionell service åt våra kunder. Vi har även adekvat
                 utbildning genomförd hos <a href = "https://sakerskog.se/">Säker Skog.</a>
             </p>
-            <p class = "text-lg font-light">Vi tar hand om hela planeringen och ser till att minimera risker för att några skador
+
+            <p>Vi tar hand om hela planeringen och ser till att minimera risker för att några skador
                 aldrig uppstår varken på människor eller byggnader.
                 Vi kan även hjälpa till med att ta hand om rester och såga upp det i vedkubbslängder för
                 enkelt omhändertagande.
@@ -26,13 +27,15 @@
                 Med våra kraftiga röjsågar kan vi även enkelt ta bort vass eller buskar som står i vägen
                 för din utsikt.
                 Vi ser fram emot att kunna hjälpa dig med!</p>
+            <br/>
             <h3>Vår miljöpolicy</h3>
-            <p class = "text-lg font-light">
+            <p>
                 När vi köper in verktyg eller material ska miljöaspekten finnas med. Miljövänliga alternativ ska alltid
                 väljas i första hand.
                 Vi driver våra redskap med miljövänlig bensin (Aspen) om det alternativet finns.
                 Alla våra utrangerade verktyg och maskiner lämnas till behörig återvinningsstation i Norrtälje.
             </p>
+            <br/>
             <h3 class = "text-lg font-light font-bold">Bra att veta om företaget</h3>
             <ul class = "list-unstyled text-lg font-light">
                 <li class="flex items-center">

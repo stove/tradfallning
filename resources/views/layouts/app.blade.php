@@ -7,13 +7,13 @@
         @include('includes.header')
         @include('includes.navbar')
         @if (request()->getRequestUri() == "/home" || request()->getRequestUri() == "/")
-            @include('includes.hero')
+{{--        @include('includes.cards')--}}
+{{--            @include('includes.hero')--}}
         @endif
 {{--        {{ session()->previousUrl() }}--}}
 
 {{--        {{ url()->current() }}--}}
         @yield('content')
-        @include('includes.cards')
         @include('includes.footer')
     </main>
 </div>

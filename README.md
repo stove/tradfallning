@@ -1,10 +1,5 @@
-## Laravel 8 For Beginners
+## Tradfallning
 
-This repository is linked to [this youtube video]( https://www.youtube.com/watch?v=376vZ1wNYPA&t=19190s) where I’ll be going over all topics that you need to know in order to become a Laravel Developer.
-
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
 
 ## Requirements
 •	PHP 7.3 or higher <br>

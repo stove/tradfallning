@@ -1,4 +1,4 @@
-@extends("layouts.app")
+@extends("layouts.layout")
 @section("content")
     <div class="container text-white mx-auto mt-6">
         <div class="grid grid-cols-3 gap-4">

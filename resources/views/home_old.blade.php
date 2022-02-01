@@ -1,90 +1,62 @@
-@extends('layouts.app')
 
-@section('content')
-<main class="sm:container sm:mx-auto sm:mt-10">
-    <div class="w-full sm:px-6">
+<!-- Section 1 -->
+<section class="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 
-        @if (session('status'))
-            <div class="text-sm border border-t-8 rounded text-green-700 border-green-600 bg-green-100 px-3 py-4 mb-4" role="alert">
-                {{ session('status') }}
-            </div>
-        @endif
+        <!-- Image -->
+        <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+            <img src="https://cdn.devdojo.com/images/december2020/productivity.png" class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+        </div>
 
-        <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
-
-            <header>
-                <div class="row">
-                    <div class="col-md-1 pt-4 pr-0 mr-sm-4">
-                        <img src="../img/logo_blad.webp" height="66" width="75" alt="logo treeleaf">
-                    </div>
-                    <div class="col-md-6 pt-4 pl-0">
-                        <H2 class="text-left pt-2"> Trädfällning Gräskö AB</H2>
-                        <p>Trädfällning i Roslagen och norra skärgården</p>
-                    </div>
-
-                    <div id="button_split_row" class="col-md-4 pt-5">
-                        <p class="lead font-weight-bold">
-                            <a class="btn btn-success btn-lg " href="tel:0724449040" style=" border-radius: 15px;">
-                                <span class="fas fa-phone" style="padding-left:5px; padding-right:5px;"></span>072-444 90 40
-
-                            </a></p>
-                    </div>
-                </div>
-               {{--navbar   --}}
-            <!--START navbar-->
-                <div class="row">
-                    <div class="col-md-12 pt-1 pb-2">
-                        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-0 ">
-                            <a class="navbar-brand" href="../index.php">Start</a>
-                            <!-- Toggler/collapsibe Button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div id="collapsibleNavbar" class="collapse navbar-collapse">
-                                <ul class="nav nav-pills">
-
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../pages/tradfallning.php">Trädfällning</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../pages/stubbfrasning.php">Stubbfräsning</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white " href="../pages/rojning.php">Röjning</a>
-                                    </li>
-                                    <!-- <li class="nav-item">
-                                         <a class="nav-link text-white" href="/pages/offert.php">Begär offert</a>
-                                     </li>-->
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../pages/kontakt.php">Kontakt</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../pages/fragor.php">Vanliga frågor</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../blog/index.php">Blogg</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="../pages/om.php">Om oss</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <!--END navbar-->
-
-
-            </header>
-
-            <div class="w-full p-6">
-                <p class="text-gray-700">
-                    You are logged in!
-                </p>
-            </div>
-
-        </section>
+        <!-- Content -->
+        <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                Boost Productivity
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+                Build an atmosphere that creates productivity in your organization and your company culture.
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Maximize productivity and growth
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Speed past your competition
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Learn the top techniques
+                </li>
+            </ul>
+        </div>
+        <!-- End  Content -->
     </div>
-</main>
-@endsection
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+
+        <!-- Content -->
+        <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                Automated Tasks
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+                Save time and money with our revolutionary services. We are the leaders in the industry.
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Automated task management workflow
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Detailed analytics for your data
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Some awesome integrations
+                </li>
+            </ul>
+        </div>
+        <!-- End  Content -->
+
+        <!-- Image -->
+        <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+            <img src="https://cdn.devdojo.com/images/december2020/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
+        </div>
+    </div>
+</section>

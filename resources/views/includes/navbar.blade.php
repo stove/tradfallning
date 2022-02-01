@@ -1,6 +1,6 @@
 
 
-    <nav class="bg-green-450 shadow rounded-2xl">
+    <nav class="bg-green-900 shadow rounded-2xl">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-around">
                 <div class="flex space-x-7 mr-4">
@@ -12,7 +12,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="font-sans hidden md:flex items-center space-x-8 justify-between">
+                <div class="font-sans  md:flex items-center space-x-8 justify-between">
                     <a href="/tradfallning"
                        class="py-2 px-2 text-white  font-semibold hover:text-green-300">
                         Trädfällning
@@ -36,15 +36,15 @@
                         Om oss
                     </a>
                 </div>
-                <div class="md:hidden flex items-center">
+                <div class="tablet:hidden flex items-center">
                     <button class="outline-none menu-button">
-                        <svg class="w-6 h-6 text-white" x-show="! showMenu" fill="none" stroke-linecap="round"
+                        <svg class="w-6 h-6 text-white"  fill="none" stroke-linecap="round"
                              stroke-linejoin="round" stroke-width="2" viewBox="0 00 24 24" stroke="currentColor">
                             <path d="m4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
-                <div class="hidden mobile-menu">
+                <div class="tablet:hidden mobile-menu">
                     <ul class="text-white">
                         <li>
                             <a href="/tradfallning"

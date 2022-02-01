@@ -29,6 +29,6 @@
             $keywords = "Trädfällning, stubbfräsning, skärgården, Norrtälje, Roslagen";
             Log::warning("Somebody logged in");
             $data = ['title'=>$title,'description'=>$description, 'keywords'=>$keywords];
-            return view('home', $data);
+            return view('pages.home', $data);
         }
     }

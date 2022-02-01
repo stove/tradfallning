@@ -45,6 +45,7 @@ use App\Http\Controllers\CarsController;
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/tradfallning', [\App\Http\Controllers\PageController::class, 'tradfallning'])->name('tradfallning');
+Route::get('/stubbfrasning', [\App\Http\Controllers\PageController::class, 'stubbfrasning'])->name('stubbfrasning');
 Route::get('/rojning', [\App\Http\Controllers\PageController::class, 'rojning'])->name('rojning');
 Route::get('/kontakt', [\App\Http\Controllers\PageController::class, 'kontakt'])->name('kontakt');
 Route::get('/fragor', [\App\Http\Controllers\PageController::class, 'fragor'])->name('fragor');

@@ -1,5 +1,5 @@
 
-<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-12 p-12">
+<div class="flex flex-1 justify-center justify-around mx-9" >
     <!--Card 1-->
     <div class="rounded overflow-hidden shadow-lg">
         <img class="w-full rounded-lg" src="/images/chainsaw_scaled.webp" alt="Mountain">

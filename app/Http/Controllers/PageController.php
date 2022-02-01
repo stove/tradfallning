@@ -10,12 +10,20 @@
         public function __construct() {}
 
         public function tradfallning() {
+
             $title = "Trädfällning i norra skärgården och Norrtälje";
             $description = "Vi utför trädfällning både på tomter och i skogsområden.
 			Sättet vi trädfäller på anpassas alltid efter situationen och platsens förutsättningar. Arbetet utförs alltid med högsta säkerhet men på ett effektivt sätt.
 			Vi utför även precisionsfällning där speciella redskap och tekniker används.";
             $keywords = "Trädfällning, Sektions trädfällning, Avancerad Trädfällning, Trädfällning Skärgården, Trädfällning Blidö, Trädfällning Yxlan";
+
             return view('pages.tradfallning', ['title'=>$title, 'description'=> $description, 'keywords'=>$keywords ]);
+        }
+        public function stubbfrasning() {
+            $title = "Stubbfräsning i norra skärgården och Norrtälje";
+            $description = "Vi utför stubbfräsning både på tomter och i skogsområden. Vi har en smidig stubbfräs som lätt kommer åt på svårtillgängliga områden.";
+            $keywords = "Stubbfräsning, Stubbfräsning Skärgården, Stubbfräsning Blidö, Stubbfräsning Yxlan, Stubbfräsning Roslagen";
+            return view('pages.stubbfrasning', ['title'=>$title, 'description'=> $description, 'keywords'=>$keywords ]);
         }
 
         public function rojning() {

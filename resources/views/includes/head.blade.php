@@ -13,17 +13,11 @@
     <meta property="og:url" content="https://tradfallningroslagen.se"/>
     <meta property="og:description" content="{{ $description ?? 'Default description.' }}"/>
     <meta property="og:site_name" content="Trädfällning Gräskö AB"/>
-    <link  href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link href="https://tradfallninggrasko.se" rel="canonical"/>
-    <!-- LOADING GOOGLE SPARTAN FONT-FAMILY-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap');
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <!-- Scripts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&family=Spartan:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <script src="{{ mix('js/app.js') }}" defer></script>
 
     <!-- Styles -->

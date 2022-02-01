@@ -1,6 +1,6 @@
 
-const mix = require('laravel-mix');
-
+let mix = require('laravel-mix');
+require('laravel-mix-tailwind');
 mix
   .js('resources/js/app.js', 'public/js')
   .postCss('resources/css/app.css', 'public/css', [
@@ -9,7 +9,7 @@ mix
     require('postcss-nested'),
     require('autoprefixer'),
   ]);
-mix.browserSync('http://localhost:8001/');
+mix.browserSync('http://localhost:8000/');
 if (mix.inProduction()) {
   mix
     .version();
